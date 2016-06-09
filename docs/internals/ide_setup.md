@@ -118,8 +118,8 @@ Prior to doing anything, make sure that the Flink project is built at least once
 3. Restart IntelliJ
 
 ### Installing the Scala compiler plugin
-1. Go to IntelliJ scala compiler settings (File -> Settings -> Build, Execution, Deployment -> Compiler -> Scala Compiler) and click on "Install Jetbrains plugin...". 
-2. Click on the green plus icon on the right to add a compiler plugin
+1. Go to IntelliJ scala compiler settings (File -> Settings -> Build, Execution, Deployment -> Compiler -> Scala Compiler)
+2. Click on the plus icon under "Compiler plugins" section
 3. Point to the paradise jar: ~/.m2/repository/org/scalamacros/paradise_2.10.4/2.0.1/paradise_2.10.4-2.0.1.jar If there is no such file, this means that you should build Flink from the terminal as explained above.
 
 ### Importing Flink
